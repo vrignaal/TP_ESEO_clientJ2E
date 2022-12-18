@@ -22,6 +22,8 @@
     </ul>
 </header>
 <body>
+<br>
+<br>
     <%
         String codeVilleSupprimee = request.getParameter("codeCommuneInsee");
 

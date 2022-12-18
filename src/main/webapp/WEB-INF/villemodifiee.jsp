@@ -21,6 +21,8 @@
     </ul>
 </header>
 <body>
+<br>
+<br>
 <%
     String codeVilleModifiee = request.getParameter("codeCommuneInsee");
 
@@ -28,7 +30,7 @@
 
     Ville villeModifiee = (Ville) request.getAttribute("villeModifiee");
 %>
-<h2>Suppression d'une ville</h2>
+<h2>Modification d'une ville</h2>
 <p>La ville avec le code commune INSEE : <% out.println(codeVilleModifiee);%> a bien été modifiée.</p>
 <h4>Les nouvelles informations sont : </h4>
 <table style="width:100%">

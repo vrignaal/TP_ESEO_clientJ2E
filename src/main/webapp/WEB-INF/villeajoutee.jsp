@@ -21,6 +21,8 @@
     </ul>
   </header>
   <body>
+  <br>
+  <br>
     <%
       String codeVilleAjoutee = request.getParameter("codeCommuneInsee");
       request.setAttribute("codeVilleAjoutee", codeVilleAjoutee);

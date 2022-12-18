@@ -34,11 +34,11 @@
         </ul>
     </nav>
     <body>
+    <br>
+    <br>
         <%
             ArrayList<Ville> villeArrayList = (ArrayList<Ville>) request.getAttribute("listeVilles");
         %>
-        <br>
-        <br>
         <h1>TP_ESEO - Partie client J2E</h1>
         <h2>UE Technologie Web et Intégration Continue</h2>
         <h3>

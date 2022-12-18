@@ -21,6 +21,8 @@
         </ul>
     </header>
     <body>
+    <br>
+    <br>
     <%
         Ville ville = (Ville) request.getAttribute("villeAModifier");
     %>
